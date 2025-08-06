@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance of the Polish Economy (2019-2024)</title>
+    <style>
+        :root {
+            --primary: #dc143c;
+            --secondary: #f8f9fa;
+            --dark: #333;
+            --light: #fff;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: var(--secondary);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary);
+            color: var(--light);
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav {
+            background-color: var(--dark);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            flex-wrap: wrap;
+        }
+        nav li {
+            padding: 1rem;
+        }
+        nav a {
+            color: var(--light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: var(--primary);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        section {
+            padding: 3rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        h1, h2, h3 {
+            margin-bottom: 1rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        .chart-container {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        .chart-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .chart-container img:hover {
+            transform: scale(1.02);
+        }
+        .card {
+            background-color: var(--light);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: var(--light);
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #b01030;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: var(--primary);
+            color: var(--light);
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        footer {
+            background-color: var(--dark);
+            color: var(--light);
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav li {
+                padding: 0.5rem;
+            }
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Performance of the Polish Economy (2019-2024)</h1>
+            <p>A comprehensive analysis of economic trends and indicators</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#cee-eu">Poland in CEE & EU</a></li>
+            <li><a href="#indicators">Macroeconomic Indicators</a></li>
+            <li><a href="#trade">Export & Import</a></li>
+            <li><a href="#sectors">Key Sectors</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Poland's economy has demonstrated remarkable resilience during the 2019-2024 period, despite facing significant challenges. The COVID-19 pandemic caused a temporary contraction in 2020, but Poland experienced one of the mildest recessions in the EU, with GDP falling by only 2.5% compared to the EU average of 6.4%.</p>
+            <p>The subsequent recovery has been robust, with growth rebounding to 5.9% in 2021 and maintaining positive momentum through 2022-2023, despite energy price shocks and supply chain disruptions following Russia's invasion of Ukraine.</p>
+            <p>Notably, the influx of Ukrainian refugees since February 2022 has had a positive economic impact, contributing to labor market stability and consumer spending. Over 1 million Ukrainian refugees have integrated into the Polish workforce, helping to address labor shortages in key sectors.</p>
+            
+            <div class="chart-container">
+                <img src="https://notesfrompoland.com/wp-content/uploads/2025/01/gdp-annual-change.jpg" alt="Poland GDP Annual Change">
+                <p><em>Poland's GDP Annual Change (2019-2024)</em></p>
+            </div>
+        </section>
+
+        <section id="cee-eu">
+            <h2>The Polish Economy in CEE and EU</h2>
+            <p>Poland stands as the largest economy in Central and Eastern Europe and the sixth-largest in the European Union. With a GDP of approximately €720 billion in 2023, Poland accounts for over 40% of the total GDP of the Visegrád Group (Poland, Czech Republic, Slovakia, and Hungary).</p>
+            <p>Since joining the EU in 2004, Poland has consistently outperformed the EU average in terms of economic growth. Between 2019 and 2024, Poland's cumulative GDP growth was approximately 8.5%, compared to the EU average of 3.2%, despite the pandemic-induced recession.</p>
+            <p>EU membership has been instrumental in Poland's economic development, with the country being the largest beneficiary of EU cohesion funds. For the 2021-2027 budget period, Poland has been allocated €76 billion in structural funds and €34 billion from the Recovery and Resilience Facility.</p>
+            
+            <div class="chart-container">
+                <img src="https://geometas.com/static/seo/eastern_europe.jpg" alt="Map of Poland in CEE/EU">
+                <p><em>Poland's Strategic Location in Central and Eastern Europe</em></p>
+            </div>
+        </section>
+
+        <section id="indicators">
+            <h2>Macroeconomic Indicators</h2>
+            <p>Poland's macroeconomic indicators have shown mixed performance in recent years, with strong growth counterbalanced by inflation challenges:</p>
+            
+            <div class="card">
+                <h3>Current Macroeconomic Data (2024)</h3>
+                <table id="macro-table">
+                    <tr>
+                        <th>Indicator</th>
+                        <th>Value</th>
+                        <th>Trend</th>
+                    </tr>
+                    <tr>
+                        <td>GDP Growth</td>
+                        <td>3.1%</td>
+                        <td>↑</td>
+                    </tr>
+                    <tr>
+                        <td>Inflation</td>
+                        <td>4.2%</td>
+                        <td>↓</td>
+                    </tr>
+                    <tr>
+                        <td>Unemployment</td>
+                        <td>2.9%</td>
+                        <td>→</td>
+                    </tr>
+                    <tr>
+                        <td>Public Debt (% of GDP)</td>
+                        <td>53.8%</td>
+                        <td>↑</td>
+                    </tr>
+                    <tr>
+                        <td>Reference Interest Rate</td>
+                        <td>5.75%</td>
+                        <td>→</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <p>The National Bank of Poland (NBP) has maintained a relatively tight monetary policy since 2022 to combat inflation, which peaked at 18.4% in February 2023. The reference rate was raised from 0.1% in 2021 to 6.75% by late 2022, before being reduced to 5.75% in late 2023.</p>
+            <p>The government has announced a comprehensive investment plan worth PLN 300 billion (€67 billion) for 2024-2027, focusing on infrastructure, energy transition, and digitalization to stimulate economic growth.</p>
+            
+            <div class="chart-container">
+                <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i2HlZm8Iy64g/v2/pidjEfPlU1QWZop3vfGKsrX.ke8XuWirGYh1PKgEw44kE/-1x-1.png" alt="Poland Macroeconomic Indicators">
+                <p><em>Poland's Key Macroeconomic Indicators (2019-2024)</em></p>
+            </div>
+        </section>
+
+        <section id="trade">
+            <h2>Export and Import Development</h2>
+            <p>Poland's international trade has shown remarkable resilience and growth during the 2019-2024 period, despite global disruptions:</p>
+            
+            <div class="card">
+                <h3>Trade Balance Overview</h3>
+                <p>Poland's exports reached €356 billion in 2023, representing a 42% increase compared to 2019 levels. Imports grew at a slightly slower pace, reaching €368 billion in 2023, resulting in a modest trade deficit of €12 billion.</p>
+                <p>The most recent data for early 2024 shows continued export growth at 5.2% year-on-year, with imports increasing by 3.8%.</p>
+            </div>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Key Export Products</h3>
+                    <ul>
+                        <li>Machinery and equipment (25.3%)</li>
+                        <li>Vehicles and parts (12.1%)</li>
+                        <li>Electronics (10.8%)</li>
+                        <li>Furniture (5.7%)</li>
+                        <li>Chemicals and plastics (8.2%)</li>
+                        <li>Food products (9.5%)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Main Trade Partners</h3>
+                    <ul>
+                        <li>Germany (28.4% of exports)</li>
+                        <li>Czech Republic (6.2%)</li>
+                        <li>France (5.8%)</li>
+                        <li>United Kingdom (5.3%)</li>
+                        <li>Italy (4.6%)</li>
+                        <li>Netherlands (4.5%)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <p>Poland has successfully diversified its export markets in recent years, with increasing trade flows to the United States, China, and Middle Eastern countries. The share of exports going to non-EU countries increased from 20% in 2019 to 26% in 2023.</p>
+            
+            <div class="chart-container">
+                <img src="https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/60683edd-680a-4a81-c2cf-6cf237c34700/w=1620" alt="Poland Trade Balance">
+                <p><em>Poland's Trade Balance Trends (2019-2024)</em></p>
+            </div>
+        </section>
+
+        <section id="sectors">
+            <h2>Key Sectors of the Polish Economy</h2>
+            <p>Poland's economic structure has evolved significantly, with a growing emphasis on high-value-added manufacturing and services:</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Manufacturing</h3>
+                    <p>Manufacturing accounts for approximately 20% of Poland's GDP, with particular strengths in automotive production, electronics, furniture, and food processing. Poland is Europe's 5th largest automotive producer, with major investments from Volkswagen, Stellantis, and Mercedes-Benz.</p>
+                </div>
+                <div class="card">
+                    <h3>Services</h3>
+                    <p>Services contribute around 57% to Poland's GDP, with financial services, retail, and business services leading the way. Poland has become a major European hub for business services, hosting over 1,700 service centers employing more than 400,000 people.</p>
+                </div>
+                <div class="card">
+                    <h3>Technology & IT</h3>
+                    <p>The technology sector has seen rapid growth, with IT services exports increasing by 15% annually since 2019. Poland is now recognized as one of Europe's leading software development hubs, with particular strengths in gaming, fintech, and cybersecurity.</p>
+                </div>
+                <div class="card">
+                    <h3>Energy Transition</h3>
+                    <p>Poland is undergoing a significant energy transition, with renewable energy capacity growing from 9.5 GW in 2019 to over 22 GW in 2024. Solar power has seen the most dramatic growth, with capacity increasing tenfold since 2019.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <p>Poland's economy has demonstrated remarkable resilience during the 2019-2024 period, successfully navigating the COVID-19 pandemic, energy crisis, and geopolitical tensions. Key strengths include:</p>
+            <ul>
+                <li>Consistent GDP growth outperforming the EU average</li>
+                <li>A diversified economic structure with strong manufacturing and growing services sectors</li>
+                <li>Expanding export markets and increasing trade volumes</li>
+                <li>Low unemployment and a flexible labor market</li>
+            </ul>
+            <p>However, challenges remain, including persistent inflation, demographic pressures, and the need for continued investment in innovation and green technologies.</p>
+            <p>Looking ahead, Poland's economic outlook remains positive, with forecasts predicting GDP growth of 3.2% in 2025 and 3.5% in 2026. The successful implementation of the National Recovery Plan and continued structural reforms will be crucial for maintaining this growth trajectory and ensuring Poland's convergence with Western European living standards.</p>
+            
+            <button class="btn" id="download-report">Download Full Report</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Performance of the Polish Economy Report</p>
+            <p>Data sources: Eurostat, National Bank of Poland, Central Statistical Office of Poland (GUS), World Bank</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                window.scrollTo({
+                    top: targetElement.offsetTop - 60,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Download report button functionality
+        document.getElementById('download-report').addEventListener('click', function() {
+            alert('Thank you for your interest! The full report would download here in a real application.');
+        });
+
+        // Simple animation for cards on scroll
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.card').forEach(card => {
+            card.style.opacity = 0;
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
